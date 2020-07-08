@@ -1,0 +1,13 @@
+{
+    "name": "root/phpPayPal",
+    "authors": [
+        {
+            "name": "Ahmed Khan",
+            "email": "ahmedkhan_847@hotmail.com"
+        }
+    ],
+    "require": {
+        "league/omnipay": "^3.0",
+        "omnipay/PayPal": "^3.0"
+    }
+}

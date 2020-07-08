@@ -1,0 +1,141 @@
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    overflow-y:hidden;
+    margin:0;
+    padding:0;
+    font-family:Open Sans;
+    width:100%;
+    height:1000px;
+}
+/* ================<header> start ========================*/
+.header{
+    width: 100%;
+    height: 48px;
+    background-color: #1dd983;
+}
+#usr1{
+    margin-left:30px;
+}
+#pwd1{
+    margin-left:30px;
+}
+.signin{
+    margin-left:30px;
+    border-radius:50%;
+}
+.signup{
+    margin-left:30px;
+    margin-right:30px;
+    border-radius: 50%;
+}
+#myfile{
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.signup_form,.login_form{
+    display: inline-block;
+    font-size:14px;
+    /* font-style:italic; */
+    font-style: normal;
+}
+.login_form{
+    float:right;
+    margin-top:7px;
+}
+.h_style{
+    display: inline-block;
+    margin-left: 39px;
+    margin-top: 6px;
+    color:white;
+}
+.user_img{
+    display: inline-block;
+    margin-left: 350px;
+    /* margin-top: 14px; */
+    /* background-color: white; */
+    
+}
+.pwd_img{
+    display: inline-block;
+   
+    /* margin-left: 961px;
+    margin-top: 14px; */
+}
+ .user_txt{
+    display: inline-block;
+     width: 200px;
+    height: 30px;
+    margin-top: 23px; 
+    padding-top: 11px; 
+    background-color: #1dd983;
+    border-color:white;
+    border-radius:2px 2px 2px 2px;
+    color:white;
+;
+}
+ .pwd_txt{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin-top: 23px; 
+    padding-top: 11px; 
+    background-color: #1dd983;
+    border-color:white;
+    border-radius:2px 2px 2px 2px;
+    color:white;
+}
+.button {
+    background-color: #0a4a2d;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 22px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 32px;
+  }
+/* ====================================</header> end ===========*/
+
+/* ==================================<main content>start =======================================*/
+.main{
+    /* position: relative; */
+    width:100%;
+    height:952px;
+    background-color: #1a1d29;
+    text-align:center;
+}
+.container{
+    /* position: absolute;
+    display:inline-block; */
+    width: 600px;
+    height: 600px;
+    background-color: #080a0e;
+    text-align:center;
+    margin-top:120px
+  
+}
+#myfile{
+    color:transparent;
+    opacity:0;
+}
+.register{
+    background-color: white;
+    color:black;
+    font-style:bold;
+    border-radius:46%;
+}
+/*================================== </main content> end==================================== */
+
+
+
